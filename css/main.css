@@ -1,0 +1,43 @@
+html, body{
+	overflow-x: hidden;
+	color: #39835C;
+}
+
+#contact-and-social-media{
+	background-color: #A8CF45;
+}
+
+.social-item{
+	padding-right: 15px;
+}
+
+#navigation{
+	padding: 0 15px;
+	background-color: #fff;
+	border-bottom: 1px solid lightgray;
+	box-shadow: -3px 2px 3px 0 lightgray;
+}
+
+.top-item{
+	background-color: lightgray;
+}
+
+p{
+	color: #444;
+}
+
+#products{
+	background-color: #eee;
+	height: 400px;
+}
+
+.footer-ul li{
+	list-style: none;
+	margin-bottom: 3px;
+	padding-left: 10px;
+}
+
+.footer-ul li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
