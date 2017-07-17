@@ -49,18 +49,18 @@
                 					<span class="icon-bar"></span>
                 					<span class="icon-bar"></span>
                 				</button>
-                				<a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive" width="200px;"></a>
+                				<a class="navbar-brand" href="pages/index.php"><img src="images/logo.png" class="img-responsive" width="200px;"></a>
                 			</div>
                 	
                 			<!-- Collect the nav links, forms, and other content for toggling -->
                 			<div class="collapse navbar-collapse navbar-ex1-collapse" style="padding-top: 15px;">
                 				<ul class="nav navbar-nav navbar-right">
-                					<li><a href="#" class="top-item">Home</a></li>
-                					<li><a href="#" class="top-item">About Us</a></li>
-                					<li><a href="#" class="top-item">Products</a></li>
+                					<li><a href="index.php" class="top-item">Home</a></li>
+                					<li><a href="pages/about.php" class="top-item">About Us</a></li>
+                					<li><a href="" class="top-item">Products</a></li>
                 					<li><a href="#" class="top-item">Services</a></li>
-                					<li><a href="#" class="top-item">Gallery</a></li>
-                					<li><a href="#" class="top-item">Contact Us</a></li>
+                					<li><a href="pages/gallery.php" class="top-item">Gallery</a></li>
+                					<li><a href="pages/contact.php" class="top-item">Contact Us</a></li>
                 				</ul>
                 			</div><!-- /.navbar-collapse -->
                 		</div>
@@ -115,34 +115,32 @@
             <div id="main-content" class="row">
             	<div class="col-md-offset-2 col-md-8">
 	            	<div id="introduction" class="row">
-	            		<div class="col-md-8" style="padding: 0 15px">
-	            			<h3>Welcome to Prodexco</h3>
-	            			<hr align="left" style="border: 1px solid gray; width: 20%;">
+	            		<div class="col-md-12" style="padding: 0 15px">
+	            			<h3 class="text-center">Welcome to Prodexco</h3>
+	            			<hr style="border: px solid gray; width: 30%;">
 	            			<p>
-	            				KK Fresh Produce Exporters Ltd is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. <br><br> KK Fresh Produce Exporters Ltd was incorporated in Uganda with the aim of export promotion and the objective of providing business and social-economic developmental services to national and international organizations through value-chain development and the exporting of fresh fruits and vegetables to Europe and other countries
+	            				KK Fresh Produce Exporters Ltd is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. KK Fresh Produce Exporters Ltd was incorporated in Uganda with the aim of export promotion and the objective of providing business and social-economic developmental services to national and international organizations through value-chain development and the exporting of fresh fruits and vegetables to Europe and other countries
 	            			</p>
-	            		</div>
-	            		<div class="col-md-4">
-	            			<img src="s" class="img-responsive">
+                            <p class="text-center"><a href="pages/about.php" class="btn btn-lg btn-read-more">Read More</a></p>
 	            		</div>
 	            	</div>
 
 	            	<div id="products" class="row">
 	            		<h3 class="text-center">Products We Export</h3>
-	            		<hr style="border: 1px solid gray; width: 30%;">
+	            		<hr style="border: px solid gray; width: 30%;">
 	            		<div class="row" style="padding: 10px 0;">
-	            			<div class="variable-width">
+	            			<div class="autoplay" class="row">
 	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/chickpeas.jpg" class="img-responsive">
+	            					<img src="images/chickpeas.jpg" class="img-responsive img-thumbnail">
 	            				</div>
 	            				<div class="img-responsive" style="width: 500px">
-	            					<img src="images/maize.jpg" class="img-responsive">
+	            					<img src="images/maize.jpg" class="img-responsive img-thumbnail">
 	            				</div>
 	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/sorghum.jpg" class="img-responsive">
+	            					<img src="images/sorghum.jpg" class="img-responsive img-thumbnail">
 	            				</div>
 	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/soya.jpg" class="img-responsive">
+	            					<img src="images/soya.jpg" class="img-responsive img-thumbnail">
 	            				</div>
 	            			</div>
 	            		</div>
@@ -150,7 +148,10 @@
 
 	            	<div id="partners" class="row">
 	            		<h3 class="text-center">Our Partners</h3>
-	            		<hr style="border: 1px solid gray; width: 30%;">
+	            		<hr style="border: px solid gray; width: 30%;">
+                        <div class="">
+                            
+                        </div>
 	            	</div>
 	            </div>
             </div>
@@ -160,10 +161,11 @@
             		<div class="col-md-offset-1 col-md-2">
             			<ul class="footer-ul">
             				<header>QUICK LINKS</header>
-            				<li><a href="">Home</a></li>
-            				<li><a href="">About Us</a></li>
+            				<li><a href="index.php">Home</a></li>
+            				<li><a href="pages/about.php">About Us</a></li>
             				<li><a href="">Products</a></li>
-            				<li><a href="">Contacts</a></li>
+            				<li><a href="pages/gallery.php">Gallery</a></li>
+            				<li><a href="pages/contact.php">Contacts</a></li>
 
             			</ul>
             		</div>

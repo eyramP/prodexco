@@ -27,7 +27,7 @@ p{
 }
 
 #products{
-	background-color: #eee;
+	background-color
 }
 
 .footer-ul li{
@@ -39,4 +39,21 @@ p{
 .footer-ul li a:hover{
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+.btn-read-more{
+	background-color: #A8CF45;
+}
+
+#about-content{
+	margin: 0;
+	padding: 0;
+}
+
+#form-div{
+	background-color: #39835C;
+	border: 1px solid lightgray;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	border-radius: 10px;
 }
