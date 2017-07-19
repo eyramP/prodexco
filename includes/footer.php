@@ -4,10 +4,10 @@
             		<div class="col-md-offset-1 col-md-2">
             			<ul class="footer-ul">
             				<header>QUICK LINKS</header>
-            				<li><a href="">Home</a></li>
-            				<li><a href="">About Us</a></li>
+            				<li><a href="../index.php">Home</a></li>
+            				<li><a href="../pages/about.php">About Us</a></li>
             				<li><a href="">Products</a></li>
-            				<li><a href="">Contacts</a></li>
+            				<li><a href="../pages/contact.php">Contacts</a></li>
 
             			</ul>
             		</div>

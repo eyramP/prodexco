@@ -27,7 +27,7 @@ p{
 }
 
 #products{
-	background-color
+	background-color:;
 }
 
 .footer-ul li{
@@ -56,4 +56,19 @@ p{
 	padding-bottom: 15px;
 	padding-top: 10px;
 	border-radius: 10px;
+}
+
+.partner-img{
+	width: 100%; 
+	max-height: 200px;
+	filter: grayscale(1);
+	transition: ease-in .5s;
+}
+
+.partner-img:hover{
+	filter: grayscale(0);
+}
+
+.sub-section{
+	padding-bottom: 5%;
 }

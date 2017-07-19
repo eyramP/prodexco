@@ -114,18 +114,18 @@
 
             <div id="main-content" class="row">
             	<div class="col-md-offset-2 col-md-8">
-	            	<div id="introduction" class="row">
+	            	<div id="introduction" class="row sub-section">
 	            		<div class="col-md-12" style="padding: 0 15px">
 	            			<h3 class="text-center">Welcome to Prodexco</h3>
 	            			<hr style="border: px solid gray; width: 30%;">
-	            			<p>
-	            				KK Fresh Produce Exporters Ltd is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. KK Fresh Produce Exporters Ltd was incorporated in Uganda with the aim of export promotion and the objective of providing business and social-economic developmental services to national and international organizations through value-chain development and the exporting of fresh fruits and vegetables to Europe and other countries
+	            			<p style="text-align: justify;">
+	            				Prodexco is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. Prodexco was incorporated in Uganda with the aim of export promotion and the objective of providing business and social-economic developmental services to national and international organizations through value-chain development and the exporting of fresh fruits and vegetables to Europe and other countries
 	            			</p>
                             <p class="text-center"><a href="pages/about.php" class="btn btn-lg btn-read-more">Read More</a></p>
 	            		</div>
 	            	</div>
 
-	            	<div id="products" class="row">
+	            	<div id="products" class="row sub-section">
 	            		<h3 class="text-center">Products We Export</h3>
 	            		<hr style="border: px solid gray; width: 30%;">
 	            		<div class="row" style="padding: 10px 0;">
@@ -146,11 +146,32 @@
 	            		</div>
 	            	</div>
 
-	            	<div id="partners" class="row">
+	            	<div id="partners" class="row sub-section">
 	            		<h3 class="text-center">Our Partners</h3>
 	            		<hr style="border: px solid gray; width: 30%;">
-                        <div class="">
-                            
+                        <div class="row">
+                            <div class="col-md-offset-2 col-md-8">
+                                 <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
+                                    <img src="images/partners/logo1.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo4.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo9.PNG" class="img-responsive partner-img">
+                                 </div>
+                                 <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
+                                    <img src="images/partners/logo2.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo5.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo8.PNG" class="img-responsive partner-img">
+                                 </div>
+                                 <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
+                                     <img src="images/partners/logo3.PNG" class="img-responsive partner-img">
+                                     <img src="images/partners/logo6.PNG" class="img-responsive partner-img">
+                                     <img src="images/partners/logo7.PNG" class="img-responsive partner-img">
+                                 </div>
+                                 <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
+                                     <img src="images/partners/logo10.PNG" class="img-responsive partner-img">
+                                     <img src="images/partners/logo11.PNG" class="img-responsive partner-img">
+                                     <img src="images/partners/logo12.PNG" class="img-responsive partner-img">
+                                 </div>
+                            </div>
                         </div>
 	            	</div>
 	            </div>

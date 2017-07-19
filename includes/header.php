@@ -49,7 +49,7 @@
                 					<span class="icon-bar"></span>
                 					<span class="icon-bar"></span>
                 				</button>
-                				<a class="navbar-brand" href="../pages/index.php"><img src="../images/logo.png" class="img-responsive" width="200px;"></a>
+                				<a class="navbar-brand" href="../index.php"><img src="../images/logo.png" class="img-responsive" width="200px;"></a>
                 			</div>
                 	
                 			<!-- Collect the nav links, forms, and other content for toggling -->
