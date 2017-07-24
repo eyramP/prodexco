@@ -113,9 +113,9 @@
             </div>
 
             <div id="main-content" class="row">
-            	<div class="col-md-offset-2 col-md-8">
+            	<div class="row">
 	            	<div id="introduction" class="row sub-section">
-	            		<div class="col-md-12" style="padding: 0 15px">
+	            		<div class="col-md-offset-2 col-md-8" style="padding: 0 15px">
 	            			<h3 class="text-center">Welcome to Prodexco</h3>
 	            			<hr style="border: px solid gray; width: 30%;">
 	            			<p style="text-align: justify;">
@@ -125,24 +125,43 @@
 	            		</div>
 	            	</div>
 
+                    <div id="what-we-do" class="row sub-section">
+                        <h3 class="text-center">Our services</h3>
+                        <div class="row" style="padding-left: 25px;">
+                            <div class="col-md-4 service-item">
+                                <img src="images/solutions.jpg" class="img-responsiv">
+                                <span class="service-item-title">Complete Agricultural Solutions</span>
+                                <p class="service-item-message">
+                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
+                                    that increase productivity and maximizes profit for the farmer.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 service-item">
+                                <img src="images/seeds.jpg" class="img-responsiv">
+                                <span class="service-item-title">Quality Seeds Support</span>
+                                <p class="service-item-message">
+                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
+                                    that increase productivity and maximizes profit for the farmer.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 service-item">
+                                <img src="images/export.jpg" class="img-responsiv">
+                                <span class="service-item-title">Product Exports</span>
+                                <p class="service-item-message">
+                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
+                                    that increase productivity and maximizes profit for the farmer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
 	            	<div id="products" class="row sub-section">
 	            		<h3 class="text-center">Products We Export</h3>
 	            		<hr style="border: px solid gray; width: 30%;">
 	            		<div class="row" style="padding: 10px 0;">
-	            			<div class="autoplay" class="row">
-	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/chickpeas.jpg" class="img-responsive img-thumbnail">
-	            				</div>
-	            				<div class="img-responsive" style="width: 500px">
-	            					<img src="images/maize.jpg" class="img-responsive img-thumbnail">
-	            				</div>
-	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/sorghum.jpg" class="img-responsive img-thumbnail">
-	            				</div>
-	            				<div class="img-responsive" style="width: 300px">
-	            					<img src="images/soya.jpg" class="img-responsive img-thumbnail">
-	            				</div>
-	            			</div>
+	    
 	            		</div>
 	            	</div>
 

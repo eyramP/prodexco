@@ -26,8 +26,60 @@ p{
 	color: #444;
 }
 
+#introduction{
+	margin-bottom: 10x;
+	padding-bottom: 0;
+}
+
 #products{
-	background-color:;
+	background-color: #999;
+	height: 400px;
+	background-image: url(../images/cerea.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.service-item{
+	position: relative;
+}
+
+.service-item img{
+	width: 100%;
+	position: relative;
+    transition: all 0.5s linear;
+    transform: scale(1);
+}
+
+.service-item-title{
+	padding-left: 10%;
+	position: absolute;
+	top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.service-item-message{
+	padding: 0 10%;
+	padding-left: 5%;
+	position: absolute;
+	bottom: 20%;
+	color: white;
+	font-weight: bold;
+	display: none;
+}
+
+.service-item:hover .service-item-message{
+	display: block;
+}
+
+.service-item:hover .img-responsiv{
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+.service-item:hover{
+	opacity: 1;
 }
 
 .footer-ul li{
@@ -71,4 +123,5 @@ p{
 
 .sub-section{
 	padding-bottom: 5%;
+
 }
