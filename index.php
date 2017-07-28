@@ -25,47 +25,33 @@
 	</head>
 	<body>
 		<div class="container-fluid row">
-			<div class="row" id="header">
-                <div id="contact-and-social-media" class="row">
-                    <div class="col-md-6 text-center">
-                        <span style="padding-right: 20px;"><i class="fa fa-phone" aria-hidden="true"></i> + 233 00000 0000</span>
-                        <span><i class="fa fa-envelope" aria-hidden="true"></i> info@searspenser.com</span>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <span><i class="fa fa-facebook social-item"></i></span>
-                        <span><i class="fa fa-twitter social-item"></i></span>
-                        <span><i class="fa fa-instagram social-item"></i></span>
-                    </div>
-                </div>
-
-                <div class="" id="navigation">
-                	<nav class="navbar" role="navigation">
-                		<div class="container-fluid">
-                			<!-- Brand and toggle get grouped for better mobile display -->
-                			<div class="navbar-header">
-                				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                					<span class="sr-only">Toggle navigation</span>
-                					<span class="icon-bar"></span>
-                					<span class="icon-bar"></span>
-                					<span class="icon-bar"></span>
-                				</button>
-                				<a class="navbar-brand" href="pages/index.php"><img src="images/logo.png" class="img-responsive" width="200px;"></a>
-                			</div>
+            <div class="" id="navigation">
+            	<nav class="navbar navbar-fixed-top" role="navigation">
+            		<div class="container-fluid">
+            			<!-- Brand and toggle get grouped for better mobile display -->
+            			<div class="navbar-header" style="margin-left: 5%;">
+            				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            					<span class="sr-only">Toggle navigation</span>
+            					<span class="icon-bar"></span>
+            					<span class="icon-bar"></span>
+            					<span class="icon-bar"></span>
+            				</button>
+            				<a class="navbar-brand" href="pages/index.php"><img src="images/logo.png" class="img-responsive" width="200px;"></a>
+            			</div>
                 	
-                			<!-- Collect the nav links, forms, and other content for toggling -->
-                			<div class="collapse navbar-collapse navbar-ex1-collapse" style="padding-top: 15px;">
-                				<ul class="nav navbar-nav navbar-right">
-                					<li><a href="index.php" class="top-item">Home</a></li>
-                					<li><a href="pages/about.php" class="top-item">About Us</a></li>
-                					<li><a href="" class="top-item">Products</a></li>
-                					<li><a href="#" class="top-item">Services</a></li>
-                					<li><a href="pages/gallery.php" class="top-item">Gallery</a></li>
-                					<li><a href="pages/contact.php" class="top-item">Contact Us</a></li>
-                				</ul>
-                			</div><!-- /.navbar-collapse -->
-                		</div>
-                	</nav>
-                </div>
+                		<!-- Collect the nav links, forms, and other content for toggling -->
+                		<div class="collapse navbar-collapse navbar-ex1-collapse" style="padding-top: 15px; padding-right: 5%;">
+                			<ul class="nav navbar-nav navbar-right">
+            					<li><a href="index.php" class="top-item">Home</a></li>
+            					<li><a href="pages/about.php" class="top-item">About Us</a></li>
+            					<li><a href="" class="top-item">Products</a></li>
+            					<li><a href="#" class="top-item">Services</a></li>
+                				<li><a href="pages/gallery.php" class="top-item">Gallery</a></li>
+                				<li><a href="pages/contact.php" class="top-item">Contact Us</a></li>
+                			</ul>
+                		</div><!-- /.navbar-collapse -->
+                	</div>
+            	</nav>
             </div>
 
             <div id="slider" class="row">
@@ -115,85 +101,82 @@
             <div id="main-content" class="row">
             	<div class="row">
 	            	<div id="introduction" class="row sub-section">
-	            		<div class="col-md-offset-2 col-md-8" style="padding: 0 15px">
-	            			<h3 class="text-center">Welcome to Prodexco</h3>
+	            		<div class="col-md-offset-1 col-md-10" style="padding: 0 15px">
 	            			<hr style="border: px solid gray; width: 30%;">
 	            			<p style="text-align: justify;">
-	            				Prodexco is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. Prodexco was incorporated in Uganda with the aim of export promotion and the objective of providing business and social-economic developmental services to national and international organizations through value-chain development and the exporting of fresh fruits and vegetables to Europe and other countries
+	            				"Prodexco is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. "
 	            			</p>
-                            <p class="text-center"><a href="pages/about.php" class="btn btn-lg btn-read-more">Read More</a></p>
+                            <div class="row" style="padding-left: 5%">
+                                <img src="images/beckham.jpeg" class="img-responsive" style="max-width: 100px; height: 100px; border-radius: 50%; margin-left: 10px; display: inline-block;">
+                                <span style="padding-left: 10px; background-color: white; display: inline-block; padding: 10px 10px;"><b>Eyram Cobblah</b> \ CEO, Prodexco</span>
+                            </div>
 	            		</div>
 	            	</div>
 
-                    <div id="what-we-do" class="row sub-section">
-                        <h3 class="text-center">Our services</h3>
-                        <div class="row" style="padding-left: 25px;">
-                            <div class="col-md-4 service-item">
-                                <img src="images/solutions.jpg" class="img-responsiv">
-                                <span class="service-item-title">Complete Agricultural Solutions</span>
-                                <p class="service-item-message">
-                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
-                                    that increase productivity and maximizes profit for the farmer.
-                                </p>
-                            </div>
-
-                            <div class="col-md-4 service-item">
-                                <img src="images/seeds.jpg" class="img-responsiv">
-                                <span class="service-item-title">Quality Seeds Support</span>
-                                <p class="service-item-message">
-                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
-                                    that increase productivity and maximizes profit for the farmer.
-                                </p>
-                            </div>
-
-                            <div class="col-md-4 service-item">
-                                <img src="images/export.jpg" class="img-responsiv">
-                                <span class="service-item-title">Product Exports</span>
-                                <p class="service-item-message">
-                                    We provide complete expert solutions to Farmers across Africa. We provide solutions
-                                    that increase productivity and maximizes profit for the farmer.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
 	            	<div id="products" class="row sub-section">
-	            		<h3 class="text-center">Products We Export</h3>
-	            		<hr style="border: px solid gray; width: 30%;">
-	            		<div class="row" style="padding: 10px 0;">
-	    
+	            	
+	            		<div class="row">                
+                            <div class="col-md-4 service-item" style="background-image: url('images/solutions.jpg');">
+                                <h5 class="service-name">Agricultural Solutions</h5>
+                                <div class="mask">
+                                    <p class="service-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-item" style="background-image: url('images/seeds.jpg'); ">
+                                <h5 class="service-name">Seed Production</h5>
+                                <div class="mask">
+                                    <p class="service-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-item" style="background-image: url('images/export.jpg'); ">
+                                <h5 class="service-name">Agricultural Exports</h5>
+                                <div class="mask">
+                                    <p class="service-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    </p>
+                                </div>
+                            </div>
+
 	            		</div>
 	            	</div>
 
 	            	<div id="partners" class="row sub-section">
 	            		<h3 class="text-center">Our Partners</h3>
 	            		<hr style="border: px solid gray; width: 30%;">
-                        <div class="row">
+                        <div class="row" style="padding-bottom: 3%;">
                             <div class="col-md-offset-2 col-md-8">
                                  <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
-                                    <img src="images/partners/logo1.PNG" class="img-responsive partner-img">
-                                    <img src="images/partners/logo4.PNG" class="img-responsive partner-img">
-                                    <img src="images/partners/logo9.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo8.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo7.PNG" class="img-responsive partner-img">   
                                  </div>
                                  <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
                                     <img src="images/partners/logo2.PNG" class="img-responsive partner-img">
-                                    <img src="images/partners/logo5.PNG" class="img-responsive partner-img">
-                                    <img src="images/partners/logo8.PNG" class="img-responsive partner-img">
+                                    <img src="images/partners/logo5.PNG" class="img-responsive partner-img">    
                                  </div>
                                  <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
                                      <img src="images/partners/logo3.PNG" class="img-responsive partner-img">
-                                     <img src="images/partners/logo6.PNG" class="img-responsive partner-img">
-                                     <img src="images/partners/logo7.PNG" class="img-responsive partner-img">
+                                     <img src="images/partners/logo6.PNG" class="img-responsive partner-img">       
                                  </div>
                                  <div class="col-md-3 col-sm-3 col-xs-3 img-responsive">
                                      <img src="images/partners/logo10.PNG" class="img-responsive partner-img">
                                      <img src="images/partners/logo11.PNG" class="img-responsive partner-img">
-                                     <img src="images/partners/logo12.PNG" class="img-responsive partner-img">
                                  </div>
                             </div>
                         </div>
 	            	</div>
 	            </div>
+            </div>
+
+            <div id="call-to-action" class="row">
+                <h3 class="text-center" style="color: white;">Let's Do Business Together!</h3>
+                <p class="text-center"><a href="pages/contact.php" class="btn btn-lg btn-read-more">Contact Us</a></p>
             </div>
 
             <div class="footer">
@@ -232,8 +215,17 @@
             			<img src="images/logo.png" class="img-responsive"> 
             		</div>
             	</div>
+
             	<div class="row" style="background-color: #39835C; color: white; text-align: center;">
-            		<span class="text-center">Copyrights &copy; Prodexco, 2017</span>
+            		<div class="col-md-6">
+                        <span class="text-center">Copyrights &copy; Prodexco, 2017</span>
+                    </div>
+                    
+                    <div class="col-md-6 text-center">
+                        <span><i class="fa fa-facebook social-item"></i></span>
+                        <span><i class="fa fa-twitter social-item"></i></span>
+                        <span><i class="fa fa-instagram social-item"></i></span>
+                    </div>
             	</div>
             </div>
 		

@@ -13,73 +13,100 @@ html, body{
 
 #navigation{
 	padding: 0 15px;
-	background-color: #fff;
-	border-bottom: 1px solid lightgray;
-	box-shadow: -3px 2px 3px 0 lightgray;
+	background-color: #eee;
+}
+
+nav{
+	background-color: white;
+	padding-bottom: 15px;
+}
+
+.navbar-fixed-top{
+	border-bottom: 2px solid #A8CF45;
+	box-shadow: 2px -2px 1px 0 gray;
 }
 
 .top-item{
-	background-color: lightgray;
+	color: #444;
+}
+
+.top-item:hover{
+	border-top: 1px solid #A8CF45;
+	border-bottom: 1px solid #A8CF45;	
 }
 
 p{
 	color: #444;
 }
 
+#slider{
+	position: relative;
+	top: 84px;
+}
+
+#main-content{
+	position: relative;
+	top: 82px;
+}
+
 #introduction{
 	margin-bottom: 10x;
-	padding-bottom: 0;
+	padding-bottom: 30px;
+	background-color: #ebf7f1;
 }
 
 #products{
-	background-color: #999;
-	height: 400px;
-	background-image: url(../images/cerea.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+	padding-bottom: 5%;
 }
 
 .service-item{
-	position: relative;
+	height: 400px;
+	background-size: cover;
+	transition: 1s linear;
 }
 
-.service-item img{
-	width: 100%;
-	position: relative;
-    transition: all 0.5s linear;
-    transform: scale(1);
-}
-
-.service-item-title{
-	padding-left: 10%;
-	position: absolute;
-	top: 20px;
-	font-size: 25px;
-	font-weight: bold;
-
-}
-
-.service-item-message{
-	padding: 0 10%;
-	padding-left: 5%;
-	position: absolute;
-	bottom: 20%;
+.service-name{
 	color: white;
-	font-weight: bold;
-	display: none;
+	text-align: center;
+	background-color: #A8CF45;
 }
 
-.service-item:hover .service-item-message{
+.service-text{
+	color: white;
+	display: none;
+	transition: .5s;
+	margin-top: 10%;
+	transition: 1s linear;
+}
+
+
+.mask{
+	background-color: transparent;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .3s ease-in;
+}
+
+.service-item:hover .service-text{
 	display: block;
 }
 
-.service-item:hover .img-responsiv{
-	transform: scale(1.1);
-	opacity: 1;
+.service-item:hover .mask{
+	box-shadow: inset 0 400px 0 0 rgba(54,54,54,0.6);
 }
 
-.service-item:hover{
-	opacity: 1;
+#call-to-action{
+	background-image: url(../images/green.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 5% 2%;
+}
+
+
+#footer{
+	position: relative;
 }
 
 .footer-ul li{
@@ -122,6 +149,9 @@ p{
 }
 
 .sub-section{
+	padding: 0 3%;
 	padding-bottom: 5%;
+	position: relative;
+
 
 }
