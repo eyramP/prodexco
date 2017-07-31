@@ -103,7 +103,7 @@
 	            	<div id="introduction" class="row sub-section">
 	            		<div class="col-md-offset-1 col-md-10" style="padding: 0 15px">
 	            			<hr style="border: px solid gray; width: 30%;">
-	            			<p style="text-align: justify;">
+	            			<p style="text-align: justify; padding: 0 5%;">
 	            				"Prodexco is a company limited by shares and committed to providing complete agricultural solutions to Ugandan farmers with a clear vision to lead in the support of agriculture systems, quality seeds and agrochemicals while focusing on general farming, fustigation and irrigation. "
 	            			</p>
                             <div class="row" style="padding-left: 5%">
